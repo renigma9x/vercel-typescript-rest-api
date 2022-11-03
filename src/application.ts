@@ -38,7 +38,7 @@ export class Application {
     );
     this.express.use(morgan(MORGAN_FORMAT));
     this.express.use(Routes);
-    await database();
+    // await database();
   }
 }
 
